@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
+  overflow: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn {
+  display: block;
+  padding: 10px 5px;
+  margin-top: 1rem;
+  text-align: center;
+  color: #000;
+  background: rgb(255, 200, 0);
+  text-transform: capitalize;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: rgb(255, 166, 0);
+  color: #fff;
+}
+
+p {
+  line-height: 25px;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+}
+
+#showcase .container .showcase-flex .flexbox-1 {
+  position: relative;
+  width: 100%;
+  margin: 20px;
+  background: url("/img/product-01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 212px;
+  height: 280px;
+}
+#showcase .container .showcase-flex .flexbox-1:hover .overlay {
+  opacity: 0.9;
+}
+#showcase .container .showcase-flex .flexbox-1 .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #fff;
+}
+#showcase .container .showcase-flex .flexbox-1 .overlay .flexbox-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#showcase .container .showcase-flex .flexbox-1 .overlay .flexbox-text a {
+  width: 100px;
+}
+
+#footer {
+  text-align: center;
+  padding: 3rem 0;
+}/*# sourceMappingURL=styles.css.map */
