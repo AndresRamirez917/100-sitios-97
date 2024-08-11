@@ -63,14 +63,11 @@ p {
 #showcase {
     .container {
         .showcase-flex {
-            .flexbox-1 {
+            .flexbox-1, .flexbox-2, .flexbox-3, .flexbox-4, .flexbox-5,
+            .flexbox-6, .flexbox-7, .flexbox-8, .flexbox-9, .flexbox-10 {
                 position: relative;
                 width: 100%;
                 margin: 20px;
-                background: url("/img/product-01.jpg");
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
                 width: 212px;
                 height: 280px;
                 &:hover .overlay {
@@ -100,6 +97,72 @@ p {
                         }
                     }
                 }
+            }
+
+            .flexbox-1 {
+                background: url("/img/product-01.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+               
+            }
+            .flexbox-2 {
+                background: url("/img/product-02.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+             
+            }
+            .flexbox-3 {
+                background: url("/img/product-03.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+           
+            }
+            .flexbox-4 {
+                background: url("/img/product-04.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+              
+            }
+            .flexbox-5 {
+                background: url("/img/product-05.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            
+            }
+            .flexbox-6 {
+                background: url("/img/product-06.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .flexbox-7 {
+                background: url("/img/product-07.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .flexbox-8 {
+                background: url("/img/product-08.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .flexbox-9 {
+                background: url("/img/product-09.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .flexbox-10 {
+                background: url("/img/product-10.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
             }
         }
     }
