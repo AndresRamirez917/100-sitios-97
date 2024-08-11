@@ -14,6 +14,7 @@ a {
   text-decoration: none;
   text-transform: capitalize;
   font-weight: bolder;
+  color: red;
 }
 
 .container {
@@ -55,6 +56,20 @@ p {
   gap: 20px;
 }
 
+#mainheader .logo {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: underline;
+  padding: 3rem 0;
+  font-size: 3rem;
+  font-weight: 300;
+}
+#mainheader .logo span {
+  color: #000;
+  padding-bottom: 1rem;
+}
+
 #showcase .container .showcase-flex .flexbox-1, #showcase .container .showcase-flex .flexbox-2, #showcase .container .showcase-flex .flexbox-3, #showcase .container .showcase-flex .flexbox-4, #showcase .container .showcase-flex .flexbox-5,
 #showcase .container .showcase-flex .flexbox-6, #showcase .container .showcase-flex .flexbox-7, #showcase .container .showcase-flex .flexbox-8, #showcase .container .showcase-flex .flexbox-9, #showcase .container .showcase-flex .flexbox-10 {
   position: relative;
@@ -92,65 +107,74 @@ p {
 #showcase .container .showcase-flex .flexbox-6 .overlay .flexbox-text a, #showcase .container .showcase-flex .flexbox-7 .overlay .flexbox-text a, #showcase .container .showcase-flex .flexbox-8 .overlay .flexbox-text a, #showcase .container .showcase-flex .flexbox-9 .overlay .flexbox-text a, #showcase .container .showcase-flex .flexbox-10 .overlay .flexbox-text a {
   width: 100px;
 }
-#showcase .container .showcase-flex .flexbox-1 {
+#showcase .container .showcase-flex.showcase-flex .flexbox-1 {
   background: url("/img/product-01.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
-#showcase .container .showcase-flex .flexbox-2 {
+#showcase .container .showcase-flex.showcase-flex .flexbox-2 {
   background: url("/img/product-02.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
-#showcase .container .showcase-flex .flexbox-3 {
+#showcase .container .showcase-flex.showcase-flex .flexbox-3 {
   background: url("/img/product-03.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
-#showcase .container .showcase-flex .flexbox-4 {
+#showcase .container .showcase-flex.showcase-flex .flexbox-4 {
   background: url("/img/product-04.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
-#showcase .container .showcase-flex .flexbox-5 {
+#showcase .container .showcase-flex.showcase-flex .flexbox-5 {
   background: url("/img/product-05.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
-#showcase .container .showcase-flex .flexbox-6 {
+#showcase .container .showcase-flex.showcase-flex .flexbox-6 {
   background: url("/img/product-06.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
-#showcase .container .showcase-flex .flexbox-7 {
+#showcase .container .showcase-flex.showcase-flex .flexbox-7 {
   background: url("/img/product-07.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
-#showcase .container .showcase-flex .flexbox-8 {
+#showcase .container .showcase-flex.showcase-flex .flexbox-8 {
   background: url("/img/product-08.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
-#showcase .container .showcase-flex .flexbox-9 {
+#showcase .container .showcase-flex.showcase-flex .flexbox-9 {
   background: url("/img/product-09.jpg");
+}
+#showcase .container .showcase-flex.showcase-flex .flexbox-10 {
+  background: url("/img/product-10.jpg");
+}
+#showcase .container .showcase-flex.showcase-flex .flexbox-1,
+#showcase .container .showcase-flex.showcase-flex .flexbox-2,
+#showcase .container .showcase-flex.showcase-flex .flexbox-3,
+#showcase .container .showcase-flex.showcase-flex .flexbox-4,
+#showcase .container .showcase-flex.showcase-flex .flexbox-5,
+#showcase .container .showcase-flex.showcase-flex .flexbox-6,
+#showcase .container .showcase-flex.showcase-flex .flexbox-7,
+#showcase .container .showcase-flex.showcase-flex .flexbox-8,
+#showcase .container .showcase-flex.showcase-flex .flexbox-9,
+#showcase .container .showcase-flex.showcase-flex .flexbox-10 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-#showcase .container .showcase-flex .flexbox-10 {
-  background: url("/img/product-10.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+
+#products {
+  width: 80%;
+  margin: 0 auto;
+}
+#products .container .products-flex {
+  margin-top: 3rem;
+}
+#products .container .products-flex .flexbox-1 {
+  gap: 50px;
+}
+#products .container .products-flex .flexbox-1 img {
+  width: 50%;
+}
+#products .container .products-flex .flexbox-1 .flexbox-text h2 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+#products .container .products-flex .flexbox-1 .flexbox-text p {
+  text-align: left;
+  margin: 1rem 0;
+}
+#products .container .products-flex .flexbox-1 .flexbox-text .btn {
+  width: 150px;
 }
 
 #footer {

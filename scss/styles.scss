@@ -17,6 +17,7 @@ a {
     text-decoration: none;
     text-transform: capitalize;
     font-weight: bolder;
+    color: red;
 }
 
 .container {
@@ -59,6 +60,23 @@ p {
     gap: 20px;
 }
 
+//mainheader
+#mainheader {
+    .logo {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        text-decoration:underline ;
+        padding: 3rem 0;
+        font-size: 3rem;
+        font-weight: 300;
+        span {
+            color: #000;
+            padding-bottom: 1rem;
+        }
+    }
+}
+
 //showcase
 #showcase {
     .container {
@@ -96,73 +114,85 @@ p {
                             width: 100px;
                         }
                     }
-                }
+                }      
             }
+&.showcase-flex {
+    .flexbox-1 {
+        background: url("/img/product-01.jpg");
+    }
+    .flexbox-2 {
+        background: url("/img/product-02.jpg");
+    }
+    .flexbox-3 {
+        background: url("/img/product-03.jpg");
+    }
+    .flexbox-4 {
+        background: url("/img/product-04.jpg");  
+    }
+    .flexbox-5 {
+        background: url("/img/product-05.jpg");
+    }
+    .flexbox-6 {
+        background: url("/img/product-06.jpg");
+    }
+    .flexbox-7 {
+        background: url("/img/product-07.jpg");
+    }
+    .flexbox-8 {
+        background: url("/img/product-08.jpg");
+    }
+    .flexbox-9 {
+        background: url("/img/product-09.jpg");
+    }
+    .flexbox-10 {
+        background: url("/img/product-10.jpg");
+    }
 
-            .flexbox-1 {
-                background: url("/img/product-01.jpg");
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-               
-            }
-            .flexbox-2 {
-                background: url("/img/product-02.jpg");
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-             
-            }
-            .flexbox-3 {
-                background: url("/img/product-03.jpg");
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
+    .flexbox-1, 
+    .flexbox-2, 
+    .flexbox-3, 
+    .flexbox-4, 
+    .flexbox-5,
+    .flexbox-6, 
+    .flexbox-7, 
+    .flexbox-8, 
+    .flexbox-9, 
+    .flexbox-10 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+}
            
-            }
-            .flexbox-4 {
-                background: url("/img/product-04.jpg");
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-              
-            }
-            .flexbox-5 {
-                background: url("/img/product-05.jpg");
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            
-            }
-            .flexbox-6 {
-                background: url("/img/product-06.jpg");
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-            .flexbox-7 {
-                background: url("/img/product-07.jpg");
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-            .flexbox-8 {
-                background: url("/img/product-08.jpg");
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-            .flexbox-9 {
-                background: url("/img/product-09.jpg");
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-            .flexbox-10 {
-                background: url("/img/product-10.jpg");
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
+        }
+    }
+}
+
+//products
+#products {
+    width: 80%;
+    margin: 0 auto;
+    .container {
+        .products-flex {
+            margin-top: 3rem;
+            .flexbox-1 {
+                gap: 50px;
+                img {
+                    width: 50%;
+                }
+                .flexbox-text {
+                    h2 {
+                        font-weight: 400;
+                        margin-bottom: 1rem;
+                    }
+                    p {
+                        text-align: left;
+                        margin: 1rem 0;
+                    }
+                    .btn {
+                        width: 150px;
+                    }
+                }
             }
         }
     }
