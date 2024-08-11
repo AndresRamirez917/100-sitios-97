@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-$font-stack:"Montserrat", sans-serif;
+$font-stack: "Montserrat", sans-serif;
 
 * {
     margin: 0;
@@ -8,7 +8,8 @@ $font-stack:"Montserrat", sans-serif;
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     font-family: $font-stack;
     scroll-behavior: smooth;
 }
@@ -66,10 +67,11 @@ p {
         display: block;
         margin: 0 auto;
         text-align: center;
-        text-decoration:underline ;
+        text-decoration: underline;
         padding: 3rem 0;
         font-size: 3rem;
         font-weight: 300;
+
         span {
             color: #000;
             padding-bottom: 1rem;
@@ -81,6 +83,7 @@ p {
 #showcase {
     .container {
         .showcase-flex {
+
             .flexbox-1, .flexbox-2, .flexbox-3, .flexbox-4, .flexbox-5,
             .flexbox-6, .flexbox-7, .flexbox-8, .flexbox-9, .flexbox-10 {
                 position: relative;
@@ -88,9 +91,11 @@ p {
                 margin: 20px;
                 width: 212px;
                 height: 280px;
+
                 &:hover .overlay {
                     opacity: 0.9;
                 }
+
                 .overlay {
                     position: absolute;
                     top: 0;
@@ -102,6 +107,7 @@ p {
                     opacity: 0;
                     transition: 0.5s ease;
                     background-color: #fff;
+
                     .flexbox-text {
                         position: absolute;
                         top: 50%;
@@ -110,60 +116,71 @@ p {
                         -ms-transform: translate(-50%, -50%);
                         transform: translate(-50%, -50%);
                         text-align: center;
+
                         a {
                             width: 100px;
                         }
                     }
-                }      
+                }
             }
-&.showcase-flex {
-    .flexbox-1 {
-        background: url("/img/product-01.jpg");
-    }
-    .flexbox-2 {
-        background: url("/img/product-02.jpg");
-    }
-    .flexbox-3 {
-        background: url("/img/product-03.jpg");
-    }
-    .flexbox-4 {
-        background: url("/img/product-04.jpg");  
-    }
-    .flexbox-5 {
-        background: url("/img/product-05.jpg");
-    }
-    .flexbox-6 {
-        background: url("/img/product-06.jpg");
-    }
-    .flexbox-7 {
-        background: url("/img/product-07.jpg");
-    }
-    .flexbox-8 {
-        background: url("/img/product-08.jpg");
-    }
-    .flexbox-9 {
-        background: url("/img/product-09.jpg");
-    }
-    .flexbox-10 {
-        background: url("/img/product-10.jpg");
-    }
 
-    .flexbox-1, 
-    .flexbox-2, 
-    .flexbox-3, 
-    .flexbox-4, 
-    .flexbox-5,
-    .flexbox-6, 
-    .flexbox-7, 
-    .flexbox-8, 
-    .flexbox-9, 
-    .flexbox-10 {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-}
-           
+            &.showcase-flex {
+                .flexbox-1 {
+                    background: url("/img/product-01.jpg");
+                }
+
+                .flexbox-2 {
+                    background: url("/img/product-02.jpg");
+                }
+
+                .flexbox-3 {
+                    background: url("/img/product-03.jpg");
+                }
+
+                .flexbox-4 {
+                    background: url("/img/product-04.jpg");
+                }
+
+                .flexbox-5 {
+                    background: url("/img/product-05.jpg");
+                }
+
+                .flexbox-6 {
+                    background: url("/img/product-06.jpg");
+                }
+
+                .flexbox-7 {
+                    background: url("/img/product-07.jpg");
+                }
+
+                .flexbox-8 {
+                    background: url("/img/product-08.jpg");
+                }
+
+                .flexbox-9 {
+                    background: url("/img/product-09.jpg");
+                }
+
+                .flexbox-10 {
+                    background: url("/img/product-10.jpg");
+                }
+
+                .flexbox-1,
+                .flexbox-2,
+                .flexbox-3,
+                .flexbox-4,
+                .flexbox-5,
+                .flexbox-6,
+                .flexbox-7,
+                .flexbox-8,
+                .flexbox-9,
+                .flexbox-10 {
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                }
+            }
+
         }
     }
 }
@@ -172,23 +189,29 @@ p {
 #products {
     width: 80%;
     margin: 0 auto;
+
     .container {
         .products-flex {
             margin-top: 3rem;
+
             .flexbox-1 {
                 gap: 50px;
+
                 img {
                     width: 50%;
                 }
+
                 .flexbox-text {
                     h2 {
                         font-weight: 400;
                         margin-bottom: 1rem;
                     }
+
                     p {
                         text-align: left;
                         margin: 1rem 0;
                     }
+
                     .btn {
                         width: 150px;
                     }

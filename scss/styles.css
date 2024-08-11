@@ -5,7 +5,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
 }
