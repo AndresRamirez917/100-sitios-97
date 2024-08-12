@@ -1,1 +1,23 @@
-/*# sourceMappingURL=mobile.css.map */
+#mainheader .logo {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#showcase .container .showcase-flex {
+  display: block;
+  margin: 0 auto;
+}
+#showcase .container .showcase-flex .flexbox-1, #showcase .container .showcase-flex .flexbox-2, #showcase .container .showcase-flex .flexbox-3, #showcase .container .showcase-flex .flexbox-4, #showcase .container .showcase-flex .flexbox-5,
+#showcase .container .showcase-flex .flexbox-6, #showcase .container .showcase-flex .flexbox-7, #showcase .container .showcase-flex .flexbox-8, #showcase .container .showcase-flex .flexbox-9, #showcase .container .showcase-flex .flexbox-10 {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+#products .container .products-flex .flexbox-1 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}/*# sourceMappingURL=mobile.css.map */

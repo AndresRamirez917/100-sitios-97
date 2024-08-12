@@ -1,0 +1,38 @@
+//mainheader
+#mainheader {
+    .logo {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 2rem 0;
+    }
+}
+
+//showcase
+#showcase {
+    .container {
+        .showcase-flex {
+            display: block;
+            margin: 0 auto;
+           .flexbox-1, .flexbox-2, .flexbox-3, .flexbox-4, .flexbox-5,
+            .flexbox-6, .flexbox-7, .flexbox-8, .flexbox-9, .flexbox-10   {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+           }
+        }
+    }
+}
+
+//products
+#products {
+    .container {
+        .products-flex {
+            .flexbox-1 {
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+            }
+        }
+    }
+}
